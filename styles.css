@@ -9,24 +9,7 @@
 }
 
 body{
-    max-width: 1440px;
-    max-height: 3503px;
     background: var(--branco);
-    margin: auto;
-    
-    
-    
-}
-
-.container-header{
-   display: block;
-   max-width: 1280px;
-   max-height: 80px;
-   margin-top: 10px;
-   margin-right: auto;
-   margin-left: auto;
-   margin-bottom: 50px;
-
 }
 
 .navbar {
@@ -42,15 +25,8 @@ body{
 }
 
 .logo{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 0px;
-    gap: 8px;
     width: 148px;
     height: 26.99px;
-
 }
 
 .navegacao{
@@ -59,8 +35,7 @@ body{
     align-items: center;
     padding: 10px;
     gap: 40px;
-    width: 362px;
-    height:32px;
+    
 }
 
 .navegacao li {
@@ -96,6 +71,7 @@ body{
     padding: 10px 18px;
     gap: 8px;
     background-color: var(--branco);
+    
     text-align: center;
     font-family: 'Inter' ;
     font-style: normal;
@@ -103,7 +79,6 @@ body{
     font-size: 16px;
     line-height: 24px;
     color: var(--cinza);
-
 }
 
 .botao-entrar:hover {
@@ -115,7 +90,6 @@ body{
 .botao-cadastrar{
     width: 112px;
     height: 44px;
-    
     border-radius: 8px;
     border: none;
     display: flex;
@@ -125,6 +99,7 @@ body{
     padding: 10px 18px;
     gap: 8px;
     background-color: var(--vermelho-principal);
+    
     text-align: center;
     font-family: 'Inter' ;
     font-style: normal;
@@ -152,7 +127,7 @@ body{
     background: var(--branco);
 }
 
-.container-vermelho{
+.texto-vermelho{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
@@ -161,7 +136,7 @@ body{
     color: var(--vermelho-principal);
 }
 
-.container-negrito{
+.texto-negrito{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -176,7 +151,7 @@ body{
 }
 
 
-.container-cinza{
+.texto-cinza{
     width: 792px;
     height: 83px;
     display: flex;
@@ -198,13 +173,11 @@ body{
     height: 288px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
     align-items: center;
-    gap: 48px;
-    padding: 0px;
-    margin-bottom: 50px;
-    
-    
+    justify-content: center;
+    gap: 64px;
+    padding: 0px 0px 20px;
+    margin: auto;
 }
 
 .metricas-item{
@@ -250,30 +223,38 @@ body{
     color: var(--cinza);
 }
 
-
+.vagas{
+    width: 1440px;
+    height: 1798px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0px;
+    gap: 64px;
+    margin: auto;
+}
 
 .talentos{
     width: 1280px;
     height: 602px;
-    margin-left: 80px;
-    margin-right: 80px;
-    margin-bottom: 36px;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
 .container-talentos{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 25px;
-    margin-bottom: 50px;
-
+    align-items: center;
+    padding-bottom: 5rem;
+    gap: 14px;
+  
     position: relative;
     width:1280px;
     height: 138px;
-    align-items: center;
+    left: auto;
+    top: 96px;
 }
 
 .container-texto-vermelho{
@@ -310,8 +291,9 @@ body{
 .imagem-rh{
     position: relative;
     width: 1216px;
-    height: 400px;
+    height: 100vh;
     margin: auto;
+    padding: 3rem;
     
 }
 
@@ -418,6 +400,7 @@ body{
     align-items: center;
     padding: 0px 0px 50px;
     background: var(--branco);
+    margin: auto;
 }
 .container-depoimentos{
     width: 1280px;
@@ -439,6 +422,7 @@ body{
     gap: 32px;
     background: rgba(196, 25, 25, 0.03);
     border-radius: 16px;
+    margin-left: auto;
 }
 
 .container-colaborador{
@@ -495,6 +479,7 @@ body{
     padding: 30px;
     gap: 32px;
     background-color: var(--cinza-claro);
+    margin: auto;
 }
 
 .container-formulario{
