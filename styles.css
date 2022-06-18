@@ -1,0 +1,574 @@
+:root {
+    --vermelho-principal: #8E2424;
+    --vermelho-claro-fundo: #C31919;
+    --cinza: #667085;
+    --preto: #101828;
+    --branco: #FFFFFF;
+    --cinza-claro: #F9FAFB;
+    --cinza-claro-borda: #EAECF0;
+}
+
+body{
+    max-width: 1440px;
+    max-height: 3503px;
+    background: var(--branco);
+    margin: auto;
+    
+    
+    
+}
+
+.container-header{
+   display: block;
+   max-width: 1280px;
+   max-height: 80px;
+   margin-top: 10px;
+   margin-right: auto;
+   margin-left: auto;
+   margin-bottom: 50px;
+
+}
+
+.navbar {
+    max-width: 1280px;
+    max-height: 44px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    margin: auto;
+    
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    width: 148px;
+    height: 26.99px;
+
+}
+
+.navegacao{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    gap: 40px;
+    width: 362px;
+    height:32px;
+}
+
+.navegacao li {
+    display: inline;
+    padding: 05px;
+    font-family: 'Inter';
+}
+
+.navegacao li:hover {
+	color: var(--vermelho-claro-fundo);
+	text-decoration: underline;
+}
+
+.botao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 12px;
+    width: 207px;
+    height: 44px;
+}
+
+.botao-entrar{
+    width: 112px;
+    height: 44px;
+    border-radius: 8px;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 18px;
+    gap: 8px;
+    background-color: var(--branco);
+    text-align: center;
+    font-family: 'Inter' ;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--cinza);
+
+}
+
+.botao-entrar:hover {
+	background-color: var(--cinza);
+	transform:  scale(1.1);
+    color: var(--branco);
+}
+
+.botao-cadastrar{
+    width: 112px;
+    height: 44px;
+    
+    border-radius: 8px;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 18px;
+    gap: 8px;
+    background-color: var(--vermelho-principal);
+    text-align: center;
+    font-family: 'Inter' ;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--branco);
+}
+
+.botao-cadastrar:hover {
+	background-color: var(--vermelho-claro-fundo);
+	transform:  scale(1.1);
+}
+
+
+.cabecalho{
+    width: 1440px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 0px 0px;
+    margin:auto;
+    gap: 24px;
+    background: var(--branco);
+}
+
+.container-vermelho{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--vermelho-principal);
+}
+
+.container-negrito{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 48px;
+    font-style: normal;
+    line-height: 60px;
+    letter-spacing: -0.02em;
+}
+
+
+.container-cinza{
+    width: 792px;
+    height: 83px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: var(--cinza);
+}
+
+
+.metricas{
+    width: 1440px;
+    height: 288px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    padding: 0px;
+    margin-bottom: 50px;
+    
+    
+}
+
+.metricas-item{
+    width: 280px;
+    height: 168px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.numeros-metricas{
+    width: 280px;
+    height: 72px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: -0.02em;
+    color:var(--vermelho-principal)
+}
+
+.paragrafo-destaque{
+    width: 280px;
+    height: 28px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--preto);
+}
+
+.paragrafo-base{
+    width: 280px;
+    height: 72px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--cinza);
+}
+
+
+
+.talentos{
+    width: 1280px;
+    height: 602px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 36px;
+    
+}
+
+
+.container-talentos{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 25px;
+    margin-bottom: 50px;
+
+    position: relative;
+    width:1280px;
+    height: 138px;
+    align-items: center;
+}
+
+.container-texto-vermelho{
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 20px;
+    text-align: center;
+    color: var(--vermelho-principal);
+}
+
+.container-texto-negrito{
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 36px;
+    font-style: normal;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: var(--preto);
+}
+
+.container-texto-cinza{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: var(--cinza);
+}
+
+.imagem-rh{
+    position: relative;
+    width: 1216px;
+    height: 400px;
+    margin: auto;
+    
+}
+
+.vagas-abertas{
+    width: 1280px;
+    height: 940px;
+    margin: auto;
+    display: block;
+    padding: 20px;
+}
+
+.container-design{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 39px;
+
+    position: relative;
+    width: 1280px;
+    height: 358px;
+    left: calc(50%-1280px/2);
+    top: 1rem;
+    margin-bottom: 20px;    
+    
+}
+
+.container-desenvolvimento{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 39px;
+
+    position: relative;
+    width: 1280px;
+    height: 518px;
+    left: calc(50%-1280px/2);
+    top: 1rem;
+    margin-bottom: 20px;  
+}
+
+.job-post{
+    width: 768px;
+    height: 136px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px 24px 28px;
+    gap: 24px;
+    background: var(--branco);
+    border: 1px solid var(--cinza-claro-borda);
+    border-radius: 16px;
+    
+}
+
+.job-post:hover {
+	background-color: var(--cinza-claro);
+	transform:  scale(1.1);
+}
+
+.container-titulo-vagas-abertas{
+    width: 768px;
+    height: 30px;
+    align-items: flex-start;
+}
+
+.titulo-vagas-abertas{
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color: var(--preto);
+}
+
+.titulo-vagas-abertas:hover {
+	color: var(--vermelho-claro-fundo);
+	text-decoration: underline;
+}
+
+.cargos-vagas-abertas{
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    color: var(--preto);
+}
+
+.descricao-cargos{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--cinza);
+}
+
+.depoimentos{
+    width: 1440px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 50px;
+    background: var(--branco);
+}
+.container-depoimentos{
+    width: 1280px;
+    height: 404px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 32px;
+    gap: 32px;
+}
+
+.container-depoimentos-background{
+    width: 1216px;
+    height: 404px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px;
+    gap: 32px;
+    background: rgba(196, 25, 25, 0.03);
+    border-radius: 16px;
+}
+
+.container-colaborador{
+    width: 1088px;
+    height: 124px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: center;
+    padding: 0px;
+    gap: 16px;
+}
+
+.nome-colaborador{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--preto);
+    padding: 10px;
+    text-align: center;
+}
+
+.descricao-colaborador{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--cinza);
+    padding: 10px;
+    text-align: center;
+}
+
+.imagem-depoimento{
+    width: 56px;
+    height: 56px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    border-radius: 200px;
+    margin: auto;
+}
+
+.formulario{
+    width: 1440px;
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    gap: 32px;
+    background-color: var(--cinza-claro);
+}
+
+.container-formulario{
+    width: 832px;
+    height: 182px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    gap: 10px;
+}
+
+.container-conteudo{
+    width: 768px;
+    height: 182px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    
+}
+.container-texto{
+    width: 768px;
+    height: 94px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    
+}
+
+.container-formulario-botao{
+    width: 492px;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0;
+    gap: 11px;
+    margin: auto;
+
+}
+
+
+.input-padrao{
+	width: 360px;
+    height: 34px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+	padding: 5px 5px 5px 6px;
+	gap: 8px;
+    background: var(--branco);
+    border: 1px solid var(--cinza);
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+}
+
+.input-padrao:hover {
+	border: 2px solid var(--vermelho-claro-fundo);
+    background: #fff3f3;      
+}
+
+
+.footer-text{
+    
+    display: flex;
+    align-items: center;
+    color:var(--cinza);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
