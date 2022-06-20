@@ -6,10 +6,12 @@
     --branco: #FFFFFF;
     --cinza-claro: #F9FAFB;
     --cinza-claro-borda: #EAECF0;
+    --font-principal: 'Inter';
 }
 
 body{
     background: var(--branco);
+    font-family: var(--font-principal);
 }
 
 .navbar {
@@ -41,7 +43,7 @@ body{
 .navegacao li {
     display: inline;
     padding: 05px;
-    font-family: 'Inter';
+    
 }
 
 .navegacao li:hover {
@@ -73,7 +75,6 @@ body{
     background-color: var(--branco);
     
     text-align: center;
-    font-family: 'Inter' ;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -101,7 +102,6 @@ body{
     background-color: var(--vermelho-principal);
     
     text-align: center;
-    font-family: 'Inter' ;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -128,7 +128,6 @@ body{
 }
 
 .texto-vermelho{
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -142,7 +141,6 @@ body{
     align-items: flex-start;
     padding: 0px;
     gap: 12px;
-    font-family: 'Inter';
     font-weight: 600;
     font-size: 48px;
     font-style: normal;
@@ -158,7 +156,7 @@ body{
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
-    font-family: 'Inter';
+    
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -192,7 +190,7 @@ body{
 .numeros-metricas{
     width: 280px;
     height: 72px;
-    font-family: 'Inter';
+    
     font-style: normal;
     font-weight: 600;
     font-size: 60px;
@@ -204,7 +202,7 @@ body{
 .paragrafo-destaque{
     width: 280px;
     height: 28px;
-    font-family: 'Inter';
+    
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -215,7 +213,7 @@ body{
 .paragrafo-base{
     width: 280px;
     height: 72px;
-    font-family: 'Inter';
+    
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -258,7 +256,7 @@ body{
 }
 
 .container-texto-vermelho{
-    font-family: 'Inter';
+  
     font-weight: 500;
     font-size: 14px;
     font-style: normal;
@@ -268,7 +266,7 @@ body{
 }
 
 .container-texto-negrito{
-    font-family: 'Inter';
+   
     font-weight: 600;
     font-size: 36px;
     font-style: normal;
@@ -279,7 +277,7 @@ body{
 }
 
 .container-texto-cinza{
-    font-family: 'Inter';
+    
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -362,7 +360,7 @@ body{
 }
 
 .titulo-vagas-abertas{
-    font-family: 'Inter';
+    
     font-size: 20px;
     font-weight: 500;
     line-height: 30px;
@@ -375,7 +373,7 @@ body{
 }
 
 .cargos-vagas-abertas{
-    font-family: 'Inter';
+    
     font-size: 18px;
     font-weight: 500;
     line-height: 28px;
@@ -383,7 +381,7 @@ body{
 }
 
 .descricao-cargos{
-    font-family: 'Inter';
+    
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -437,7 +435,7 @@ body{
 }
 
 .nome-colaborador{
-    font-family: 'Inter';
+   
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -448,7 +446,7 @@ body{
 }
 
 .descricao-colaborador{
-    font-family: 'Inter';
+    
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -551,7 +549,7 @@ body{
     display: flex;
     align-items: center;
     color:var(--cinza);
-    font-family: 'Inter';
+    
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
